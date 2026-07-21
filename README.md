@@ -49,7 +49,7 @@ N<sub>train</sub> = &lfloor; N<sub>total</sub> &times; (1 - validation_split) &r
 
 ---
 
-## 📚 Dataset yang Digunakan (Untuk Pelatihan)
+## 📚 Dataset yang Digunakan
 
 Skrip `DataManager` secara native mendukung pemrosesan untuk tiga dataset publik berstandar riset berikut:
 
