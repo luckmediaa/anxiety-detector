@@ -35,7 +35,7 @@ Output dari lapisan akhir model (Softmax) berupa probabilitas untuk setiap kelas
 
 $$ \hat{y} = \text{argmax}_c P(y=c | \mathbf{x}) $$
 
-*Di mana $\hat{y}$ adalah label final, dan $c$ adalah indeks kelas.*
+*Di mana $$\hat{y}$$ adalah label final, dan $$c$$ adalah indeks kelas.*
 
 ### 2. Penstabilan Prediksi (Mode / Modus Smoothing)
 Mata manusia rentan melihat teks yang berubah sangat cepat per milidetik. Sistem menyimpan antrean hasil prediksi dalam *sliding window* berukuran 10 *frame* terakhir ($W=10$), lalu mencari nilai Modus (nilai yang paling sering muncul).
