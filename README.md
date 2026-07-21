@@ -45,7 +45,7 @@ $$ y_{display} = \text{Mo}(y_{t-9}, y_{t-8}, \dots, y_t) $$
 ### 3. Pembagian Data Latih dan Validasi
 Pada skrip pemroses dataset, jumlah sampel dibagi menggunakan perhitungan proporsional:
 
-$$N_{\text{train}} \lfloor N_{\text{total}} \times \text{validation\_split} \rfloor$$
+N<sub>train</sub> = &lfloor; N<sub>total</sub> &times; (1 - validation_split) &rfloor;
 
 ---
 
