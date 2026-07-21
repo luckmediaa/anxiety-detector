@@ -10,7 +10,7 @@ Sistem **Computer Vision** berbasis *Deep Learning* untuk mendeteksi wajah serta
 
 ---
 
-## 🧠 Algoritma & Arsitektur Jaringan
+## 🧠 Algoritma
 
 Proyek ini menggabungkan teknik Computer Vision klasik dan arsitektur Modern Deep Learning:
 
@@ -55,7 +55,7 @@ Skrip `DataManager` secara native mendukung pemrosesan untuk tiga dataset publik
 
 1.  **FER2013 (Facial Expression Recognition 2013)**
     *   **Tujuan:** Klasifikasi Emosi.
-    *   **Deskripsi:** Terdiri dari puluhan ribu gambar wajah resolusi 48x48 piksel grayscale. Terdapat 7 kelas label: *Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral*.
+    *   **Deskripsi:** Terdiri dari puluhan ribu gambar wajah resolusi 48x48 piksel grayscale. Terdapat 7 kelas label: *Angry, Disgust, Anxiety, Happy, Sad, Surprise, Neutral*.
 2.  **IMDB-WIKI Crop**
     *   **Tujuan:** Klasifikasi Gender.
     *   **Deskripsi:** Dataset skala besar berisi gambar wajah selebritas berserta metadatanya. Program ini menggunakan logika penyaringan (*Boolean Masking*) otomatis untuk membuang gambar tanpa wajah (`face_score < 3`) atau gambar foto grup (`second_face_score`).
